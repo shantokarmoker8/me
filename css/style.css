@@ -15,6 +15,13 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.side-img {
+  position: absolute;
+  z-index: -1;
+  width: 400px;
+  top: -173px;
+  left: -189px;
+}
 .left {
   width: 50%;
   padding-left: 60px;
