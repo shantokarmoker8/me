@@ -47,4 +47,57 @@
     margin: auto;
     width: 300px;
   }
+  /* ------------section two----------- */
+  .section-two {
+    display: flex;
+  }
+  .section-two .left {
+    width: 50%;
+    display: flex;
+    align-items: center;
+  }
+  .section-two .left img {
+    width: 400px;
+    align-items: center;
+  }
+  .section-two .right {
+    display: block;
+    margin: auto;
+    padding: 0 20px;
+    width: 50%;
+  }
+  .section-two .right h1 {
+    font-size: 25px;
+  }
+  .section-two .right h3 {
+    padding: 5px 0;
+    font-size: 15px;
+  }
+  .section-two .right p {
+    font-size: 10px;
+  }
+  .section-two .right a {
+    display: inline-block;
+    margin-top: 10px;
+    border: 3px solid blue;
+    background: pink;
+    border-radius: 10px;
+    padding: 5px;
+    color: blue;
+    font-weight: 700;
+    transition: 0.3s;
+    font-size: 10px;
+  }
+  .section-two .right a:hover {
+    border: 3px solid red;
+    color: red;
+    padding: 15px;
+  }
+  .section-two > img {
+    position: absolute;
+    width: 211px;
+    right: -179px;
+    top: -2px;
+    z-index: -1;
+  }
 }

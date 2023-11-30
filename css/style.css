@@ -78,6 +78,8 @@ img {
 /* --------------section-two------------- */
 .section-two {
   display: flex;
+  position: relative;
+  padding-bottom: 20px;
 }
 .section-two .left {
   width: 50%;
@@ -110,4 +112,11 @@ img {
   border: 3px solid red;
   color: red;
   padding: 15px;
+}
+.section-two > img {
+  position: absolute;
+  width: 303px;
+  right: -119px;
+  top: 68px;
+  z-index: -1;
 }
